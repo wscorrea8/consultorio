@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+  <meta charset="UTF-8">
+  <title>Consultorio</title>
+  <link rel="icon" type="image/x-icon" href="src/assets/images/otroicon.ico">
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+  <link rel="stylesheet" href="src/assets/styles/index.css">
+
+  <script src="node_modules/@popperjs/core/dist/umd/popper.js"></script>
+  <script type="text/javascript" src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+</head>
+
+<body onload="loadHeader()">
+  <!-- Cuerpo html -->
+  <div class="container-fluid">
+    <div id="idCabecera"></div>
+
+    <div id="idRuteo">
+    </div>
+  </div>
+
+  <!-- Javascripts obligatorios -->
+  <script src="node_modules/routing/route.js"></script>
+  <script src="node_modules/routing/router.js"></script>
+  <script src="src/rutas/ruteo.js"></script>
+  <script src="node_modules/loadheader/header.js"></script>
+  <script src="src/assets/js/logica.js"></script>
+  
+  <!-- Javascripts developers -->
+  <script src="src/assets/js/roles/listar.js"></script>
+  <script src="src/assets/js/roles/crear.js"></script>
+  <script src="src/assets/js/roles/admin.js"></script>
+  <script src="src/assets/js/roles/eliminar.js"></script>
+
+</body>
+
+</html>
