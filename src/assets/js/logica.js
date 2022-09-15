@@ -1,6 +1,7 @@
 function logicaNegocio(url, param) {
     switch (url) {
         case 'src/componentes/roles/rollistado.html':
+            listarRoles();
             
             break;
         case 'src/componentes/roles/rolcrear.html':
